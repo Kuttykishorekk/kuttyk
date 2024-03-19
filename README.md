@@ -67,6 +67,17 @@ x, y, z = [1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]
 plot_3d(x, y, z, plot_type='scatter')
 ```
 
+### Geographical plot(GEOMAP)
+```python
+# Sample latitude and longitude coordinates
+latitudes = [34.0522, 40.7128, 37.7749]
+longitudes = [-118.2437, -74.0060, -122.4194]
+titles = ['Los Angeles', 'New York', 'San Francisco']
+
+# Visualize the locations on a map
+plot_geo_locations(latitudes, longitudes, titles)
+```
+
 ## Contributing
 We welcome contributions to Kutty! If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcomed.
 

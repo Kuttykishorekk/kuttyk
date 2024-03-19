@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "kuttyk"
-version = "0.1.0"
+version = "1.4.7"
 description = ""
-authors = ["kuttykishorekk <kishorekumar.mourougane@epita.fr>"]
+authors = ["kuttykishorekk <kishorekumarmourougane@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<4.0"
